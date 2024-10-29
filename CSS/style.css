@@ -1,0 +1,151 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    background: #f0f0f0;
+    padding: 20px;
+}
+
+
+.logo {
+    float: left;
+    height: 80px;
+    width: 300px;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #333;
+    animation: colorChange 5s infinite;
+}
+
+header h2 {
+    font-size: 1.5em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+p {
+    font-style: italic;
+    color: #888;
+}
+
+/* Main section styling */
+.journey h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+
+.web-development-section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.web-development-section h3 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* Skills */
+.skills {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.skill {
+    width: 150px;
+    padding: 15px;
+    background: #e0e0e0;
+    border: 1px solid #ccc;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.skill:hover {
+    transform: scale(1.1);
+}
+
+/* Personal Section */
+.personal {
+    text-align: center;
+    padding: 20px;
+}
+
+.zoom-box {
+    display: inline-block;
+    padding: 10px;
+    background: #ddd;
+    border: 1px solid #ccc;
+    transition: transform 3s;
+}
+
+.zoom-box:hover {
+    transform: scale(1.8);
+}
+
+/* Footer styling */
+/* footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+} */
+
+/* Color changing animation */
+@keyframes colorChange {
+
+    0%,
+    100% {
+        color: #333;
+    }
+
+    50% {
+        color: #0066cc;
+    }
+}
+
+#gridLayout {
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+     gap: 5px;
+} 
+
+    .gridItem {
+        height: 300px;
+    }
+
+    footer {
+        display: flex;
+        background-color: rgb(204, 204, 204);
+        text-align: center;
+    }
+
+    .footer {
+        flex: 1;
+        margin: 20px;
+        color: black;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+  
